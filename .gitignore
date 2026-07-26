@@ -1,0 +1,15 @@
+image.ppm
+/build/
+
+# generated outputs
+*.ppm
+*.png
+*.jpg
+*.jpeg
+
+# executables
+*.o
+*.out
+*.a
+*.dylib
+*.so
