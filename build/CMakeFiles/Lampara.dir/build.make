@@ -72,28 +72,28 @@ include CMakeFiles/Lampara.dir/flags.make
 CMakeFiles/Lampara.dir/codegen:
 .PHONY : CMakeFiles/Lampara.dir/codegen
 
-CMakeFiles/Lampara.dir/main.cpp.o: CMakeFiles/Lampara.dir/flags.make
-CMakeFiles/Lampara.dir/main.cpp.o: /Users/ethan/CLionProjects/Lampara/main.cpp
-CMakeFiles/Lampara.dir/main.cpp.o: CMakeFiles/Lampara.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ethan/CLionProjects/Lampara/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Lampara.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Lampara.dir/main.cpp.o -MF CMakeFiles/Lampara.dir/main.cpp.o.d -o CMakeFiles/Lampara.dir/main.cpp.o -c /Users/ethan/CLionProjects/Lampara/main.cpp
+CMakeFiles/Lampara.dir/src/main.cpp.o: CMakeFiles/Lampara.dir/flags.make
+CMakeFiles/Lampara.dir/src/main.cpp.o: /Users/ethan/CLionProjects/Lampara/src/main.cpp
+CMakeFiles/Lampara.dir/src/main.cpp.o: CMakeFiles/Lampara.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ethan/CLionProjects/Lampara/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Lampara.dir/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Lampara.dir/src/main.cpp.o -MF CMakeFiles/Lampara.dir/src/main.cpp.o.d -o CMakeFiles/Lampara.dir/src/main.cpp.o -c /Users/ethan/CLionProjects/Lampara/src/main.cpp
 
-CMakeFiles/Lampara.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Lampara.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ethan/CLionProjects/Lampara/main.cpp > CMakeFiles/Lampara.dir/main.cpp.i
+CMakeFiles/Lampara.dir/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Lampara.dir/src/main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ethan/CLionProjects/Lampara/src/main.cpp > CMakeFiles/Lampara.dir/src/main.cpp.i
 
-CMakeFiles/Lampara.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Lampara.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ethan/CLionProjects/Lampara/main.cpp -o CMakeFiles/Lampara.dir/main.cpp.s
+CMakeFiles/Lampara.dir/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Lampara.dir/src/main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ethan/CLionProjects/Lampara/src/main.cpp -o CMakeFiles/Lampara.dir/src/main.cpp.s
 
 # Object files for target Lampara
 Lampara_OBJECTS = \
-"CMakeFiles/Lampara.dir/main.cpp.o"
+"CMakeFiles/Lampara.dir/src/main.cpp.o"
 
 # External object files for target Lampara
 Lampara_EXTERNAL_OBJECTS =
 
-Lampara: CMakeFiles/Lampara.dir/main.cpp.o
+Lampara: CMakeFiles/Lampara.dir/src/main.cpp.o
 Lampara: CMakeFiles/Lampara.dir/build.make
 Lampara: CMakeFiles/Lampara.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/ethan/CLionProjects/Lampara/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Lampara"

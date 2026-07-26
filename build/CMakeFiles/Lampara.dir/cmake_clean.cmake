@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Lampara.dir/main.cpp.o"
-  "CMakeFiles/Lampara.dir/main.cpp.o.d"
+  "CMakeFiles/Lampara.dir/src/main.cpp.o"
+  "CMakeFiles/Lampara.dir/src/main.cpp.o.d"
   "Lampara"
   "Lampara.pdb"
 )
