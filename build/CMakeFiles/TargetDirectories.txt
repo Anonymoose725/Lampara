@@ -1,0 +1,3 @@
+/Users/ethan/CLionProjects/Lampara/build/CMakeFiles/Lampara.dir
+/Users/ethan/CLionProjects/Lampara/build/CMakeFiles/edit_cache.dir
+/Users/ethan/CLionProjects/Lampara/build/CMakeFiles/rebuild_cache.dir
