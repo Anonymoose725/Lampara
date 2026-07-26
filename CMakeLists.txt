@@ -3,4 +3,5 @@ project(Lampara)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(Lampara main.cpp)
+add_executable(Lampara src/main.cpp
+        src/vec3.h)
