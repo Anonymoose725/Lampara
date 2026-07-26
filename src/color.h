@@ -8,7 +8,7 @@
 using color = vec3;
 //using colour = vec3;
 
-void write_color(std::ostream& out, const color& pixel_color) {
+void write_color(std::ostream& out, const color& pixel_color) { // writes a single pixel's colour to output stream
     auto r = pixel_color.x();
     auto g = pixel_color.y();
     auto b = pixel_color.z();
